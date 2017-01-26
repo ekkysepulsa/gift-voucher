@@ -1,0 +1,37 @@
+/* -------------------------- Global Style -------------------------- */
+html, body
+{
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+    position: relative;
+    height: 100%;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+a, a:hover, a:focus, a:active
+{
+    text-decoration: none;  /*default link = ada garis bawah, nah dg seperti ini buat ilangin garis bawah */
+    outline: none; /*remove blue outline on bootstrap link & button*/
+}
+
+button, button:hover, button:focus, button:active
+{
+   outline: none; /*remove blue outline on bootstrap link & button*/ 
+}
+
+.alert
+{
+    padding: 10px;
+}
+
+/* -------------------------- Start Responsive -------------------------- */
+@media (min-width: 1200px) {
+  .container {
+        width: 1024px;
+    }
+}
+/* -------------------------- End of Responsive -------------------------- */

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Gift Voucher">
+    <meta name="author" content="Ekky Patria">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Gift Voucher</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Ini tambahan buat panggil font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+  </head>
+
+  <body>
+
+	<!-- Modal Contact Customer Care -->
+	<div class="modal fade" id="redeemModal" tabindex="-1" role="dialog" aria-labelledby="redeemModalLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-center modal-voucher" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				  <a href="#" class="pull-right modal-close" data-dismiss="modal">CLOSE</a>
+				</div>
+				<div class="modal-body">
+					<h1>Redeem Voucher</h1>
+					<p>Redeem voucher success</p>
+					<a href="#">Back to home</a>
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div>
+	    </div>
+  	</div>
+
+    <div class="container">
+    	<div class="form-redeem">
+    		<h1>Redeem Voucher</h1>
+			<div class="alert alert-danger" role="alert">
+				<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				<span class="sr-only">Error:</span>
+				<span class="custom-info">Kode Voucher salah data-toggle="modal" data-target="#loginModal"</span>
+			</div>
+
+    		<form>
+				<div class="field-container">
+					<label class="floating-label">Kode merchant</label>
+					<br/><input type="text" class="field" placeholder="Masukkan kode merchant disini" required/>
+				</div>
+				<div class="field-container">
+					<label class="floating-label">Nomor Handphone</label>
+					<br/><input type="text" class="field" placeholder="Masukkan nomor Handphone disini" required/>
+				</div>
+				<div>
+					<button type="submit" class="btn btn-default">REDEEM NOW</button>
+				</div>
+			</form>
+
+    		<p>Potongan harga sebesar <span class="highlight">Rp100.000</span> untuk pembelian senilai <span class="highlight">Rp300.000<span></p>
+    	</div>
+    	<div>
+    		<p><a href="#" data-toggle="modal" data-target="#redeemModal">Term & Condition</a></p>
+    	</div>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script> -->
+
+
+    <!-- javascript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Link to the javascript file we will create -->
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
