@@ -38,14 +38,28 @@
 	    <div class="modal-dialog modal-center modal-voucher" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-				  <a href="#" class="pull-right modal-close" data-dismiss="modal">CLOSE</a>
+	              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	                <span aria-hidden="true">&times;</span>
+	              </button>
+	              <div class="popup-title">
+	                <h1>Term & Condition</h1>
+	              </div>
 				</div>
 				<div class="modal-body">
-					<h1>Redeem Voucher</h1>
-					<p>Redeem voucher success</p>
-					<a href="#">Back to home</a>
-				</div>
-				<div class="modal-footer">
+					<div class="snk-list">
+						<ul>
+							<li>The use of gift vouchers fall under the following terms and conditions:
+							In order to purchase a Gift Certificate, you will need to register an account with us through our Website.</li>
+							<li>Gift Certificates ordered through our Website will be delivered automatically by electronic means to the email address you specify at the time of order.  Our Gift Certificates include unique numbers and configurable patterns.</li>
+							<li>Our Gift Certificates must be redeemed on our Website, as full or part payment of products from our Website.  A Gift Certificate cannot be used to purchase a further Gift Certificate.</li>
+							<li>When ordering a Gift Certificate, you should ensure to enter the recipient’s email address correctly.  We cannot be held responsible if the address is entered incorrectly and someone other than the intended recipient uses the Gift Certificate.</li>
+							<li>The use of gift vouchers fall under the following terms and conditions:
+							In order to purchase a Gift Certificate, you will need to register an account with us through our Website.</li>
+							<li>Gift Certificates ordered through our Website will be delivered automatically by electronic means to the email address you specify at the time of order.  Our Gift Certificates include unique numbers and configurable patterns.</li>
+							<li>Our Gift Certificates must be redeemed on our Website, as full or part payment of products from our Website.  A Gift Certificate cannot be used to purchase a further Gift Certificate.</li>
+							<li>When ordering a Gift Certificate, you should ensure to enter the recipient’s email address correctly.  We cannot be held responsible if the address is entered incorrectly and someone other than the intended recipient uses the Gift Certificate.</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 	    </div>
@@ -54,25 +68,32 @@
     <div class="container">
     	<div class="form-redeem">
     		<h1>Redeem Voucher</h1>
-			<div class="alert alert-danger" role="alert">
-				<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-				<span class="sr-only">Error:</span>
-				<span class="custom-info">Kode Voucher salah</span>
-			</div>
+    		<div class="redeem">
+				<div class="alert alert-danger" role="alert">
+					<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+					<span class="sr-only">Error:</span>
+					<span class="custom-info">Kode Voucher salah</span>
+				</div>
 
-    		<form>
-				<div class="field-container">
-					<label class="floating-label">Kode merchant</label>
-					<br/><input type="text" name="merchant-code" class="field" placeholder="Masukkan kode merchant disini" required/>
-				</div>
-				<div class="field-container">
-					<label class="floating-label">Nomor Handphone</label>
-					<br/><input type="text" name="phone-number" class="field" placeholder="Masukkan nomor Handphone disini" required/>
-				</div>
-				<div>
-					<button type="submit" class="btn btn-default">REDEEM NOW</button>
-				</div>
-			</form>
+	    		<form>
+					<div class="field-container">
+						<label class="floating-label">Kode merchant</label>
+						<br/><input type="text" name="merchant-code" class="field" placeholder="Masukkan kode merchant disini" required/>
+					</div>
+					<div class="field-container">
+						<label class="floating-label">Nomor Handphone</label>
+						<br/><input type="text" name="phone-number" class="field" placeholder="Masukkan nomor Handphone disini" required/>
+					</div>
+					<div>
+						<button type="submit" class="btn btn-default btn-redeem">REDEEM NOW</button>
+					</div>
+				</form>
+			</div>
+    		<div class="success-redeem">
+    			<img src="assets/img/icon_success.png" alt="redeem success">
+    			<p>Redeem voucher success</p>
+    			<p><a href="index.html" class="back-home">Back to home</a></p>
+    		</div>
     	</div>
     	<div class="snk-redeem">
     		<p>Potongan harga sebesar <span class="highlight">Rp100.000</span> untuk pembelian senilai <span class="highlight">Rp300.000<span></p>

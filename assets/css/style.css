@@ -38,7 +38,7 @@ button, button:hover, button:focus, button:active
 .container
 {
     width: 500px;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .form-redeem
@@ -111,6 +111,13 @@ button, button:hover, button:focus, button:active
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
+.form-redeem .btn-default:hover,
+.form-redeem .btn-default:active,
+.form-redeem .btn-default:focus
+{
+    background: #A32201;
+    color: #FFF;
+}
 
 .snk-redeem
 {
@@ -132,8 +139,90 @@ button, button:hover, button:focus, button:active
     text-decoration: underline;
 }
 
-/* -------------------------- Start Responsive -------------------------- */
-@media (min-width: 480px) {
+/* popup tnc */
+.modal-dialog
+{
+    margin-top: 10%;
+}
+.modal-header
+{
+    padding-bottom: 0;
+    border: none;
+}
+.modal-header h1
+{
+    color: #C42801;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(149, 152, 154, 0.43);
+}
 
+.modal ul,
+.modal ol
+{
+    padding-left: 20px;
+}
+.modal ul li,
+.modal ol li
+{
+    padding-bottom: 10px;
+}
+.modal ul li:last-child, 
+.modal ol li:last-child
+{
+    padding-bottom: 0;
+}
+
+.snk-list {
+    height: 350px;
+    overflow-y: auto;
+}
+
+.modal-backdrop
+{
+    background-color: #2E2E2E;
+}
+.modal-backdrop.in
+{
+    opacity: .67;
+    filter: alpha(opacity=67);
+}
+
+.success-redeem
+{
+    display: none;
+    text-align: center;
+    font-size: 19px;
+    color: #A2A2A2;
+    padding-bottom: 10px;
+}
+.success-redeem p
+{
+    margin: 0;
+}
+.success-redeem img
+{
+    margin: 35px auto;
+}
+.success-redeem a
+{
+    color: #C42801;
+    font-size: 15px;
+}
+
+/* -------------------------- Start Responsive -------------------------- */
+@media (max-width: 480px) {
+    body
+    {
+        background-size: 480px;
+        background-position: top -10px center;
+    }
+    .form-redeem
+    {
+        margin-top: 65px;
+    }
 }
 /* -------------------------- End of Responsive -------------------------- */
