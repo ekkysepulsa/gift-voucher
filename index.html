@@ -57,27 +57,27 @@
 			<div class="alert alert-danger" role="alert">
 				<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
 				<span class="sr-only">Error:</span>
-				<span class="custom-info">Kode Voucher salah data-toggle="modal" data-target="#loginModal"</span>
+				<span class="custom-info">Kode Voucher salah</span>
 			</div>
 
     		<form>
 				<div class="field-container">
 					<label class="floating-label">Kode merchant</label>
-					<br/><input type="text" class="field" placeholder="Masukkan kode merchant disini" required/>
+					<br/><input type="text" name="merchant-code" class="field" placeholder="Masukkan kode merchant disini" required/>
 				</div>
 				<div class="field-container">
 					<label class="floating-label">Nomor Handphone</label>
-					<br/><input type="text" class="field" placeholder="Masukkan nomor Handphone disini" required/>
+					<br/><input type="text" name="phone-number" class="field" placeholder="Masukkan nomor Handphone disini" required/>
 				</div>
 				<div>
 					<button type="submit" class="btn btn-default">REDEEM NOW</button>
 				</div>
 			</form>
-
-    		<p>Potongan harga sebesar <span class="highlight">Rp100.000</span> untuk pembelian senilai <span class="highlight">Rp300.000<span></p>
     	</div>
-    	<div>
-    		<p><a href="#" data-toggle="modal" data-target="#redeemModal">Term & Condition</a></p>
+    	<div class="snk-redeem">
+    		<p>Potongan harga sebesar <span class="highlight">Rp100.000</span> untuk pembelian senilai <span class="highlight">Rp300.000<span></p>
+
+    		<p><a href="#" class="snk" data-toggle="modal" data-target="#redeemModal">Term & Condition</a></p>
     	</div>
     </div>
 

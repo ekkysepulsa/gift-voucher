@@ -12,6 +12,12 @@ html, body
     -webkit-text-size-adjust: 100%;
 }
 
+body
+{
+    background: #fff url('../img/sample-banner.png') no-repeat top -35px center;
+    background-size: 100%;
+}
+
 a, a:hover, a:focus, a:active
 {
     text-decoration: none;  /*default link = ada garis bawah, nah dg seperti ini buat ilangin garis bawah */
@@ -26,12 +32,108 @@ button, button:hover, button:focus, button:active
 .alert
 {
     padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container
+{
+    width: 500px;
+    max-width: 90%;
+}
+
+.form-redeem
+{
+    margin-top: 220px;
+    margin-bottom: 25px;
+
+    background: #EFEFEF;
+    padding: 20px;
+    width: 100%;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+
+        -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.16);
+        -moz-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.16);
+        box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.16);
+}
+.form-redeem h1
+{
+    font-weight: 500;
+    color: #646464;
+    margin-top: 5px;
+
+    font-size: 23px;
+    text-align: center;
+}
+.form-redeem label
+{
+    color: #646464;
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-redeem .field-container
+{
+    margin-bottom: 15px;
+}
+
+.form-redeem input[type="text"]
+{
+    padding: 10px;
+    border: none;
+    width: 100%;
+
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.form-redeem .btn-default
+{
+    background: #C42801;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 16px;
+
+    padding: 15px 60px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.snk-redeem
+{
+    text-align: center;
+    color: #C3C3C3;
+    font-size: 14px;
+    font-weight: 400;
+}
+.snk-redeem .highlight
+{
+    font-weight: 600;
+    color: #767676;
+}
+.snk-redeem .snk
+{
+    margin-top: 25px;
+    color: #C42801;
+    font-size: 15px;
+    text-decoration: underline;
 }
 
 /* -------------------------- Start Responsive -------------------------- */
-@media (min-width: 1200px) {
-  .container {
-        width: 1024px;
-    }
+@media (min-width: 480px) {
+
 }
 /* -------------------------- End of Responsive -------------------------- */
